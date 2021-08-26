@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumNunitExtentReport", "SeleniumNunitExtentReport\SeleniumNunitExtentReport.csproj", "{52287AD6-7CF6-4741-A627-E503D890AACD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52287AD6-7CF6-4741-A627-E503D890AACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52287AD6-7CF6-4741-A627-E503D890AACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52287AD6-7CF6-4741-A627-E503D890AACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52287AD6-7CF6-4741-A627-E503D890AACD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A51F87A4-7BC4-4599-9F9F-E79BE79C0B29}
+	EndGlobalSection
+EndGlobal
