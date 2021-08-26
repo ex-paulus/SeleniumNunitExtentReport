@@ -37,9 +37,7 @@ namespace SeleniumNunitExtentReport.Config
 
             switch (status)
             {
-
                 case TestStatus.Failed:
-
                     logstatus = Status.Fail;
                     var time = DateTime.Now;
                     var fileName = TestContext.CurrentContext.Test.Name;
@@ -49,7 +47,6 @@ namespace SeleniumNunitExtentReport.Config
                     break;
 
                 case TestStatus.Inconclusive:
-
                     logstatus = Status.Warning;
                     break;
 

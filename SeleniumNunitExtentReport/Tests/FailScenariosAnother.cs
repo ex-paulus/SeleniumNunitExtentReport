@@ -3,13 +3,13 @@ using SeleniumNunitExtentReport.Config;
 
 namespace SeleniumNunitExtentReport.Tests
 {
-    public class FailScenarios : BaseClass
+    public class FailScenariosAnother : BaseClass
     {
         [Test]
-        public void FailTest()
+        public void FailTestAgain()
         {
             Driver.Url = "http://google.com";
-            Assert.AreEqual(Driver.Title, "Journey");
+            Assert.Fail("Fail once again!");
         }
     }
 }

@@ -6,7 +6,6 @@ namespace SeleniumNunitExtentReport.Tests
     public class PassScenarios : BaseClass
     {
         [Test]
-
         public void PassTest()
         {
             Driver.Url = "http://google.com";
